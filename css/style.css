@@ -1,0 +1,402 @@
+body{
+    margin:0;
+    padding:0;
+    overflow-x: hidden;
+}
+.navbar{
+    background-color: #1b2530;
+    color: rgba(242,244,246,.9);
+    width:100%;
+    height: 82px;
+    background-image:linear-gradient(
+        180deg,#1b2530 0,rgba(27,37,48,.85));
+    margin-top: -82px;
+    position: fixed;    
+
+}
+.logo{
+    
+    margin-left: 50px;
+    width: 112px;
+    height: 35px;
+    margin-top: 22px;
+     
+}
+.globe_icon{
+    
+    
+    cursor: pointer;
+    height: 21px;
+    width: 22px;
+    margin-right: 4px;
+   
+    
+    
+
+}
+.arrow_icon{
+    cursor: pointer;
+    height: 9px;
+    width: 10px;
+    margin-right: 21px;
+}
+.header_icons{
+    float: right;
+    margin-top: 26px;
+    margin-right: 50px;
+    display: inline-block;
+}
+.headertext{
+        font-size: 16px;
+    color: rgba(242,244,246,.9);
+    text-decoration: none;
+    font-family: Tahoma, Verdana, sans-serif;
+    margin-right: 3px;
+    margin-top: 1px;
+}
+.headersignin{
+    font-size: 17px;
+    color: rgba(242,244,246,.9);
+    text-decoration: none;
+    font-family: Arial,sans-serif!important;
+    margin-right: 16px;
+
+
+}
+.mainimage{
+    margin-left: 0px;
+    width: 100%;
+    height: 270px;
+}
+.image{
+    width: 100%;
+    height: 455px;
+    margin-top: 82px;
+    background-position: right top;
+    background-color: black;
+    background-image: linear-gradient(to right, #000 40%, transparent 58%), url(https://m.media-amazon.com/images/G/31/AmazonVideo/2019/1102620_MLP_1440x675_apv189_V3._CB639304410_.jpg);
+    overflow-x: hidden;
+}
+.welcome{
+    width: 34%;
+    height: 20px;
+    color: rgb(255, 255, 255);
+    margin-top: 0;
+    font-size:2.5rem;
+    padding-left: 76px;
+    padding-top: 52px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.subline{
+    width: 100%;
+    height: 20px;
+    color: rgb(255, 255, 255);
+    margin-top: 0;
+    
+    margin-top: 0;
+    font-size: 21px;
+    margin-left: 80px;
+    padding-top: 4px;
+    font-family: Tahoma, Verdana, sans-serif;
+
+}
+.fav_channel{
+    margin-top: 100px;
+}
+
+.button{
+    background-color: #0f79af!important;
+    border-radius: 1px;
+    font-size: 17px;
+    font-family: 'Source Sans Pro', sans-serif;
+    padding: 6px 18px;
+    color:#fff;
+    text-decoration: none;
+    margin-top: -20px;
+    margin-left: 75px;
+    
+    border-radius: 2px;
+    padding-left: 68px;
+    padding-right: 70px;
+    padding-top: 17px;
+    padding-bottom: 17px;
+   
+  
+}
+.section2{
+    width: 100%;
+    height: 500px;
+    background-color:white;
+    margin-top: 0px;
+
+    
+    margin-top: 0;
+}
+.section2_0{
+    width: 42%;
+    height: 20px;
+    color: rgb(0, 0, 0);
+    margin-top: 0;
+    font-size: 2.5rem;
+    padding-left: 76px;
+    padding-top: 57px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+
+.sub_section2{
+    width: 100%;
+    height: 20px;
+    color: rgb(0, 0, 0);
+    margin-top: 46px;
+    font-size: 21px;
+    margin-left: 80px;
+    padding-top: 4px;
+    font-family: Tahoma, Verdana, sans-serif;
+
+}
+.text1{
+    margin-top: 0;
+}
+
+.section3{
+    width: 100%;
+    height: 545px;
+    background-color: cornsilk;
+    margin-top: 0;
+    background-color: #000;
+    background-image: linear-gradient(to right, #000 40%, transparent 58%), url(https://m.media-amazon.com/images/G/01/digital/video/Magellan_MLP/PRIME_multi-benefit_MAGNET_2X._CB1519820207_.jpg);
+    background-position: right top;
+}
+.sub_section3{
+    width: 100%;
+    height: 20px;
+    color: rgb(255, 255, 255);
+    margin-top: 46px;
+    font-size: 21px;
+    margin-left: 80px;
+    padding-top: 4px;
+    font-family: Tahoma, Verdana, sans-serif;
+
+}
+.button2{
+    background-color: #0f79af!important;
+    border-radius: 1px;
+    font-size: 17px;
+    font-family: 'Source Sans Pro', sans-serif;
+    padding: 6px 18px;
+    color:#fff;
+    text-decoration: none;
+    margin-top: -20px;
+    margin-left: 75px;
+    border-radius: 2px;
+    padding-left: 96px;
+    padding-right: 101px;
+    padding-top: 17px;
+    padding-bottom: 17px;
+
+}
+.info{
+    color: white;
+    font-size: 17px;
+    margin-left: 75px;
+    margin-top:50px;
+}
+
+
+.section4{
+   
+    width: 100%;
+    height: 455px;
+    background-color: cornsilk;
+    margin-top: 0;
+    background-color: #000;
+    background-image: linear-gradient(to left, #000 40%, transparent 58%), url(https://images-na.ssl-images-amazon.com/images/G/01/digital/video/Magellan_MLP/MLP_Template_Image_Left.jpg);
+    background-position: left top;
+}
+.welcome4{
+    float:right;
+    width: 40%;
+    height: 20px;
+    color: rgb(255, 255, 255);
+    margin-top: 0;
+    font-size:2.5rem;
+    padding-left: 76px;
+    padding-top: 52px;
+    margin-right: 85px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.sub_section4{
+    float: right;
+    width: 100%;
+    height: 20px;
+    color: rgb(255, 255, 255);
+    margin-top: 46px;
+    font-size: 21px;
+    margin-left: 80px;
+    padding-top: 4px;
+    font-family: Tahoma, Verdana, sans-serif;
+
+}
+.p_style{
+    
+    float: right;
+    margin-top: 56px;
+    margin-right: -775px;
+}
+.button4{
+    float:right;
+    background-color: #0f79af!important;
+    border-radius: 1px;
+    font-size: 17px;
+    font-family: 'Source Sans Pro', sans-serif;
+    padding: 6px 18px;
+    color:#fff;
+    text-decoration: none;
+    margin-top: 170px;
+    margin-left: 75px;
+    margin-right: 412px;
+    border-radius: 2px;
+    padding-left: 96px;
+    padding-right: 101px;
+    padding-top: 17px;
+    padding-bottom: 17px;
+
+}
+
+.section5{
+    width: 100%;
+    
+    background-color:#fff;
+    margin-top: 0;
+}
+
+
+
+
+
+.container2{
+    width: 86%;
+    height: 100%;
+    margin-left: 90px;
+    margin-right: 20px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+
+}
+.row1{
+    width:33%;
+    height:100%;
+    display: inline-block;
+    
+}
+.row2{
+    width:33%;
+    height:100%;
+    display: inline-block;
+    
+}
+
+.row3{
+    width:33%;
+    height:100%;
+    display: inline-block;
+    
+}
+.innerrow1{
+    width:100%;
+    height: 75%;
+}
+.innerrow2{
+
+}
+.innerrow3{
+
+}
+.img1{
+    width: 100%;
+    
+}
+
+
+.section6{
+    width: 100%;
+    height: 456px;
+    
+    margin-top: 0;
+    background-color: #000;
+    background-image: linear-gradient(to right, #000 40%, transparent 58%), url(https://m.media-amazon.com/images/G/01/digital/video/Magellan_MLP/IN-kids-30Jan._CB1517304519_.jpg);
+    background-position: right top;
+
+}
+.footer{
+    width: 100%;
+    height: 138px;
+    background-color: #222 ;
+    margin-top: 0;
+
+}
+.footer_items li {
+   
+    list-style: none;
+    display: inline-block;
+    margin-left: 150px;  
+    margin-bottom: 10px;
+    
+}
+.a1{
+    text-decoration: none;
+    font-size: 15px;
+    margin-left: 287px;
+    color:rgb(1, 111, 201);
+    margin-bottom: 10px;
+
+
+}
+.a2{
+    text-decoration: none;
+    font-size: 15px;
+    margin-left: -140px;
+    color:rgb(1, 111, 201);
+    margin-bottom: 10px;
+}
+.a3{
+    text-decoration: none;
+    font-size: 15px;
+    margin-left: -176px;
+    color:rgb(1, 111, 201);
+}
+.footerp{
+   color: #b1b1b1 ;
+   margin-left: -292px;
+}
+.footerlogo{
+    margin-top: 26px;
+    margin-left: 736px;
+}
+.grid_section{
+    float: right;
+    width: 47%;
+    height: 0px;
+    margin-top: -204px;
+    margin-bottom: 0px;
+    margin-right: 46px;
+}
+.grid_item{
+    margin: 7px;
+    max-width: 270px;
+    width: 29%;
+    float: left;
+    overflow: hidden;
+    
+    
+}
+.channel_img{
+    width:100%;
+    height:100%;
+}
+
+
